@@ -1,1 +1,11 @@
-<p>search-bar works!</p>
+<div class="search-container">
+    <form calss="search-form" #form="ngForm" (ngSubmit)="onSubmit(form)">
+        <span class="titleofsearchbar" routerLink="/">Books </span>
+        <input
+        class="search-input"
+        name="search"
+        ngModel
+        placeholder="Type whatever you want" />
+        <button class="search-button">Search</button>
+    </form>
+</div>
