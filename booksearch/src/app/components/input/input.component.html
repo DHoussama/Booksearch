@@ -1,0 +1,13 @@
+<form #form calss="search-form" (ngSubmit)="handleSubmit(word.value)">
+    <input
+      type="text"
+      name="word"
+      id="word"
+      #word
+      placeholder="Type the word..."
+      class="search-input"
+    />
+    <button type="submit" class="search-button">Search</button>
+  </form>
+
+  

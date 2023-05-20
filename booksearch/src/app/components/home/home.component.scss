@@ -1,8 +1,9 @@
-.filters {
+ .filters {
     max-width:  100px;    
-}
+   
+  }
 
-::ng-deep {
+ ::ng-deep {
     .mat-form-field-infix {
       background-color: #3f51b5;
     }
@@ -30,7 +31,7 @@
     }
   }
 
-  .games {
+  .books {
     flex-wrap: wrap;
     justify-content: center;
     max-width: 1200px;
@@ -38,7 +39,7 @@
   }
 
 
-  .game {
+  .book {
   width: 280px;
   margin: 10px;
   height: 330px;
@@ -99,7 +100,7 @@
   }
 
 
-}
+ }
 
 
 
