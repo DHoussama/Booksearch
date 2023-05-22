@@ -16,7 +16,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: calc(100% - 60px - 2rem);
+    
   }
   
   header {
@@ -59,4 +59,8 @@ main {
   
   .info {
     width: 100%;
+  }
+
+  .definitionb {
+    color : green;
   }

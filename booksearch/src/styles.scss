@@ -127,12 +127,12 @@ table {
 }
 
 :root {
-  --primary: #1239bc;
-  --secondary: #00ff7f;
+  --primary: white;
+  --secondary: black;
 }
 
 :root .dark-mode {
-  --primary: #00ff7f;
-  --secondary: #1239bc;
+  --primary: black;
+  --secondary: white;
   transition: all 0.5s ease;
 }
